@@ -1,7 +1,7 @@
 import AppKit
 import SwiftUI
 
-class AboutWindow: NSWindowController {
+class AboutWindow: NSWindowController, NSWindowDelegate {
     
     static let window = makeWindow()
     
@@ -13,7 +13,6 @@ class AboutWindow: NSWindowController {
         let window = Self.window
         window.backgroundColor = NSColor.controlBackgroundColor
         self.init(window: window)
-
         let contentView = makeAboutView()
         window.titleVisibility = .hidden
         window.titlebarAppearsTransparent = true
@@ -32,9 +31,9 @@ class AboutWindow: NSWindowController {
         ]
         return NSWindow(
             contentRect: contentRect,
-                        styleMask: styleMask,
-                        backing: .buffered,
-                        defer: false
+            styleMask: styleMask,
+            backing: .buffered,
+            defer: false
         )
     }
 
