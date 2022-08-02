@@ -10,6 +10,7 @@ class AboutWindow: NSWindowController, NSWindowDelegate {
     }
 
     convenience init() {
+        print("init about windows")
         let window = Self.window
         window.backgroundColor = NSColor.controlBackgroundColor
         self.init(window: window)

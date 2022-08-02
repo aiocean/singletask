@@ -7,9 +7,19 @@ struct MenuBarPopup: View {
             Button {
                 AboutWindow.show()
             } label: {
-                Text("About...")
+                Text("Pause")
             }
-        }
+            Button {
+                AboutWindow.show()
+            } label: {
+                Text("Start")
+            }
+            Button {
+                AboutWindow.show()
+            } label: {
+                Text("Preference")
+            }
+        }.padding(20)
     }
 }
 

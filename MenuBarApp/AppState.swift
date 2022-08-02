@@ -25,7 +25,6 @@ final class AppState: ObservableObject {
         UserDefaults.standard.register(defaults: [
             "NSApplicationCrashOnExceptions": true
         ])
-        
         // TODO: Remove in 2023.
         SSApp.runOnce(identifier: "migrateToDefaultav5") {
             

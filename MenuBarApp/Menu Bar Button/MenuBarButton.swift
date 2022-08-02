@@ -20,7 +20,8 @@ class MenuBarButton {
     func showMenu(_ sender: AnyObject?) {
         switch NSApp.currentEvent?.type {
         case .leftMouseUp:
-            showPrimaryMenu()
+            // showPrimaryMenu()
+            AboutWindow.show()
         case .rightMouseUp:
             showSecondaryMenu()
         default:
