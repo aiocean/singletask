@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04828B5A28992F6A00300435 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04828B5728992F6A00300435 /* AppDelegate.swift */; };
+		04828B5B28992F6A00300435 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04828B5828992F6A00300435 /* AppState.swift */; };
+		04828B5C28992F6A00300435 /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04828B5928992F6A00300435 /* Events.swift */; };
+		04828B6828992FA800300435 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04828B5D28992FA800300435 /* Error.swift */; };
+		04828B6A28992FA800300435 /* Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04828B5F28992FA800300435 /* Collection.swift */; };
+		04828B6B28992FA800300435 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04828B6028992FA800300435 /* Device.swift */; };
+		04828B6D28992FA800300435 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04828B6228992FA800300435 /* String.swift */; };
+		04828B6E28992FA800300435 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04828B6328992FA800300435 /* Timer.swift */; };
+		04828B6F28992FA800300435 /* URL++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04828B6428992FA800300435 /* URL++.swift */; };
+		04828B7028992FA800300435 /* SSApp++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04828B6528992FA800300435 /* SSApp++.swift */; };
+		04828B7228992FA800300435 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04828B6728992FA800300435 /* Utils.swift */; };
 		04D15D4928985001000AE7BC /* ShortcutSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D15D4828985001000AE7BC /* ShortcutSettingsView.swift */; };
 		04F81C432898403300A23B24 /* KeyboardShortcuts in Frameworks */ = {isa = PBXBuildFile; productRef = 04F81C422898403300A23B24 /* KeyboardShortcuts */; };
 		04F81C452898405C00A23B24 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F81C442898405C00A23B24 /* Constants.swift */; };
@@ -18,9 +29,6 @@
 		4180AEC0283976740054FEA9 /* SettingsWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4180AEBF283976740054FEA9 /* SettingsWindow.swift */; };
 		4180AEC2283976F80054FEA9 /* GeneralSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4180AEC1283976F80054FEA9 /* GeneralSettingsView.swift */; };
 		4180AEEB2839A0280054FEA9 /* AboutCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4180AEEA2839A0280054FEA9 /* AboutCommand.swift */; };
-		4180AEEE2839A0660054FEA9 /* Bundle+Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4180AEED2839A0660054FEA9 /* Bundle+Name.swift */; };
-		4180AEF12839A0830054FEA9 /* Bundle+Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4180AEF02839A0830054FEA9 /* Bundle+Version.swift */; };
-		4180AEF32839A0950054FEA9 /* Bundle+Copyright.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4180AEF22839A0950054FEA9 /* Bundle+Copyright.swift */; };
 		4180AEF92839A21F0054FEA9 /* AboutWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4180AEF82839A21F0054FEA9 /* AboutWindow.swift */; };
 		4180AEFB2839A32F0054FEA9 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4180AEFA2839A32F0054FEA9 /* AboutView.swift */; };
 		4180AEFE2839A3B30054FEA9 /* AttributionsWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4180AEFD2839A3B30054FEA9 /* AttributionsWindow.swift */; };
@@ -31,6 +39,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04828B5728992F6A00300435 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04828B5828992F6A00300435 /* AppState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		04828B5928992F6A00300435 /* Events.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
+		04828B5D28992FA800300435 /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		04828B5F28992FA800300435 /* Collection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Collection.swift; sourceTree = "<group>"; };
+		04828B6028992FA800300435 /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		04828B6228992FA800300435 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		04828B6328992FA800300435 /* Timer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
+		04828B6428992FA800300435 /* URL++.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URL++.swift"; sourceTree = "<group>"; };
+		04828B6528992FA800300435 /* SSApp++.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SSApp++.swift"; sourceTree = "<group>"; };
+		04828B6728992FA800300435 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		04D15D4828985001000AE7BC /* ShortcutSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutSettingsView.swift; sourceTree = "<group>"; };
 		04F81C442898405C00A23B24 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		4180AEAA2839753E0054FEA9 /* MenuBarApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MenuBarApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,9 +61,6 @@
 		4180AEBF283976740054FEA9 /* SettingsWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsWindow.swift; sourceTree = "<group>"; };
 		4180AEC1283976F80054FEA9 /* GeneralSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralSettingsView.swift; sourceTree = "<group>"; };
 		4180AEEA2839A0280054FEA9 /* AboutCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutCommand.swift; sourceTree = "<group>"; };
-		4180AEED2839A0660054FEA9 /* Bundle+Name.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Name.swift"; sourceTree = "<group>"; };
-		4180AEF02839A0830054FEA9 /* Bundle+Version.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Version.swift"; sourceTree = "<group>"; };
-		4180AEF22839A0950054FEA9 /* Bundle+Copyright.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Copyright.swift"; sourceTree = "<group>"; };
 		4180AEF82839A21F0054FEA9 /* AboutWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutWindow.swift; sourceTree = "<group>"; };
 		4180AEFA2839A32F0054FEA9 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 		4180AEFD2839A3B30054FEA9 /* AttributionsWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributionsWindow.swift; sourceTree = "<group>"; };
@@ -87,6 +103,9 @@
 		4180AEAC2839753E0054FEA9 /* MenuBarApp */ = {
 			isa = PBXGroup;
 			children = (
+				04828B5728992F6A00300435 /* AppDelegate.swift */,
+				04828B5828992F6A00300435 /* AppState.swift */,
+				04828B5928992F6A00300435 /* Events.swift */,
 				4180AEEC2839A0560054FEA9 /* Utilities */,
 				4180AEBE283976620054FEA9 /* Settings */,
 				4180AEF72839A2010054FEA9 /* About Window */,
@@ -123,20 +142,17 @@
 		4180AEEC2839A0560054FEA9 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				419B77D7283AF95000B6044D /* AppKit Extensions */,
-				4180AEEF2839A0720054FEA9 /* Bundle Extensions */,
+				419B77D5283AF93E00B6044D /* NSWindow+AlwaysOnTop.swift */,
+				04828B5F28992FA800300435 /* Collection.swift */,
+				04828B6028992FA800300435 /* Device.swift */,
+				04828B5D28992FA800300435 /* Error.swift */,
+				04828B6528992FA800300435 /* SSApp++.swift */,
+				04828B6228992FA800300435 /* String.swift */,
+				04828B6328992FA800300435 /* Timer.swift */,
+				04828B6428992FA800300435 /* URL++.swift */,
+				04828B6728992FA800300435 /* Utils.swift */,
 			);
 			path = Utilities;
-			sourceTree = "<group>";
-		};
-		4180AEEF2839A0720054FEA9 /* Bundle Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				4180AEED2839A0660054FEA9 /* Bundle+Name.swift */,
-				4180AEF02839A0830054FEA9 /* Bundle+Version.swift */,
-				4180AEF22839A0950054FEA9 /* Bundle+Copyright.swift */,
-			);
-			path = "Bundle Extensions";
 			sourceTree = "<group>";
 		};
 		4180AEF72839A2010054FEA9 /* About Window */ = {
@@ -166,14 +182,6 @@
 				4180AF10283A50770054FEA9 /* MenuBarPopup.swift */,
 			);
 			path = "Menu Bar Button";
-			sourceTree = "<group>";
-		};
-		419B77D7283AF95000B6044D /* AppKit Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				419B77D5283AF93E00B6044D /* NSWindow+AlwaysOnTop.swift */,
-			);
-			path = "AppKit Extensions";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,20 +264,28 @@
 			files = (
 				4180AF022839A4BA0054FEA9 /* AttributionsView.swift in Sources */,
 				4180AEBD283975670054FEA9 /* MainScene.swift in Sources */,
-				4180AEF12839A0830054FEA9 /* Bundle+Version.swift in Sources */,
+				04828B5B28992F6A00300435 /* AppState.swift in Sources */,
+				04828B7028992FA800300435 /* SSApp++.swift in Sources */,
+				04828B5C28992F6A00300435 /* Events.swift in Sources */,
 				4180AEFB2839A32F0054FEA9 /* AboutView.swift in Sources */,
-				4180AEEE2839A0660054FEA9 /* Bundle+Name.swift in Sources */,
 				4180AF11283A50770054FEA9 /* MenuBarPopup.swift in Sources */,
 				4180AEC2283976F80054FEA9 /* GeneralSettingsView.swift in Sources */,
 				04F81C452898405C00A23B24 /* Constants.swift in Sources */,
 				419B77D6283AF93E00B6044D /* NSWindow+AlwaysOnTop.swift in Sources */,
 				04D15D4928985001000AE7BC /* ShortcutSettingsView.swift in Sources */,
 				4180AEF92839A21F0054FEA9 /* AboutWindow.swift in Sources */,
+				04828B6D28992FA800300435 /* String.swift in Sources */,
+				04828B6E28992FA800300435 /* Timer.swift in Sources */,
 				4180AF0F283A50660054FEA9 /* MenuBarButton.swift in Sources */,
-				4180AEF32839A0950054FEA9 /* Bundle+Copyright.swift in Sources */,
+				04828B5A28992F6A00300435 /* AppDelegate.swift in Sources */,
+				04828B6B28992FA800300435 /* Device.swift in Sources */,
+				04828B7228992FA800300435 /* Utils.swift in Sources */,
 				4180AEC0283976740054FEA9 /* SettingsWindow.swift in Sources */,
 				4180AEFE2839A3B30054FEA9 /* AttributionsWindow.swift in Sources */,
+				04828B6F28992FA800300435 /* URL++.swift in Sources */,
+				04828B6A28992FA800300435 /* Collection.swift in Sources */,
 				4180AEEB2839A0280054FEA9 /* AboutCommand.swift in Sources */,
+				04828B6828992FA800300435 /* Error.swift in Sources */,
 				4180AEAE2839753E0054FEA9 /* MenuBarApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -327,7 +343,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -381,7 +397,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;

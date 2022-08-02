@@ -2,24 +2,18 @@ import AppKit
 import SwiftUI
 
 class MenuBarButton {
-    
-    let statusItem: NSStatusItem
-    
-    init() {
-        statusItem = NSStatusBar.system
-            .statusItem(withLength: CGFloat(NSStatusItem.variableLength))
-                
-        guard let button = statusItem.button else {
-            return
-        }
-        button.title = "demo"
-        button.image = NSImage(systemSymbolName: "pause", accessibilityDescription: nil)
-        button.imagePosition = NSControl.ImagePosition.imageLeft
-        button.target = self
-        button.action = #selector(showMenu(_:))
-        button.sendAction(on: [.leftMouseUp, .rightMouseUp])
+        
+    private(set) lazy var statusItem = with(NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)) {
+        $0.behavior = [.removalAllowed, .terminationOnRemoval]
+        $0.button?.image = NSImage(systemSymbolName: "shield", accessibilityDescription: nil)
+        $0.button?.imagePosition = NSControl.ImagePosition.imageLeft
+        $0.button?.action = #selector(showMenu(_:))
+        $0.button?.target = self
+        $0.button?.sendAction(on: [.leftMouseUp, .rightMouseUp])
     }
-    
+     
+    private(set) lazy var statusItemButton = statusItem.button!
+
     // MARK: - Show Menu
     
     @objc
@@ -79,8 +73,7 @@ class MenuBarButton {
     
     @objc
     func showPreferences() {
-        NSApp.activate(ignoringOtherApps: true)
-        SettingsWindow.show()
+        SSApp.showSettingsWindow()
     }
     
     @objc

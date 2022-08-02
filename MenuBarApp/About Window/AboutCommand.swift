@@ -8,7 +8,7 @@ struct AboutCommand: Commands {
             Button {
                 AboutWindow.show()
             } label: {
-                Text("About \(Bundle.main.name)")
+                Text("About \(SSApp.name)")
             }
         }
     }

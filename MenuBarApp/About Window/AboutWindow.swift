@@ -10,15 +10,11 @@ class AboutWindow: NSWindowController {
     }
 
     convenience init() {
-        
         let window = Self.window
-                
         window.backgroundColor = NSColor.controlBackgroundColor
-                
         self.init(window: window)
 
         let contentView = makeAboutView()
-            
         window.titleVisibility = .hidden
         window.titlebarAppearsTransparent = true
         window.center()
@@ -34,20 +30,22 @@ class AboutWindow: NSWindowController {
             .closable,
             .fullSizeContentView
         ]
-        return NSWindow(contentRect: contentRect,
+        return NSWindow(
+            contentRect: contentRect,
                         styleMask: styleMask,
                         backing: .buffered,
-                        defer: false)
+                        defer: false
+        )
     }
 
     private func makeAboutView() -> some View {
         AboutView(
             icon: NSApp.applicationIconImage ?? NSImage(),
-            name: Bundle.main.name,
-            version: Bundle.main.version,
-            build: Bundle.main.buildVersion,
-            copyright: Bundle.main.copyright,
-            developerName: "<Insert name here>")
+            name: SSApp.name,
+            version: SSApp.version,
+            build: SSApp.build,
+            copyright: SSApp.copyright,
+            developerName: "AI Ocean")
             .frame(width: 500, height: 260)
     }
 }

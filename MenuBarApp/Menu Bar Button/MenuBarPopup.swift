@@ -1,8 +1,6 @@
 import SwiftUI
 import Defaults
 struct MenuBarPopup: View {
-    @Default(.task) var task
-    
     var body: some View {
         VStack(spacing: 20) {
             Text("Hello, World!")
@@ -11,14 +9,7 @@ struct MenuBarPopup: View {
             } label: {
                 Text("About...")
             }
-            Button {
-                NSApp.activate(ignoringOtherApps: true)
-                SettingsWindow.show()
-            } label: {
-                Text("Preferences...")
-            }
         }
-        .frame(minWidth: 200, minHeight: 200)
     }
 }
 

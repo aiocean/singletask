@@ -5,8 +5,7 @@ struct MainScene: Scene {
     var body: some Scene {
         WindowGroup {
             if false {}
-        }
-        .commands {
+        }.commands {
             AboutCommand()
         }
         Settings {
