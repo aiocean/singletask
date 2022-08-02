@@ -7,14 +7,14 @@ class MenuBarButton {
     
     init() {
         statusItem = NSStatusBar.system
-            .statusItem(withLength: CGFloat(NSStatusItem.squareLength))
+            .statusItem(withLength: CGFloat(NSStatusItem.variableLength))
                 
         guard let button = statusItem.button else {
             return
         }
-        
-        button.image = NSImage(systemSymbolName: "hammer", accessibilityDescription: nil)
-        button.imagePosition = NSControl.ImagePosition.imageOnly
+        button.title = "demo"
+        button.image = NSImage(systemSymbolName: "pause", accessibilityDescription: nil)
+        button.imagePosition = NSControl.ImagePosition.imageLeft
         button.target = self
         button.action = #selector(showMenu(_:))
         button.sendAction(on: [.leftMouseUp, .rightMouseUp])
